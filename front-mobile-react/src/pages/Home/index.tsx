@@ -2,15 +2,19 @@ import React from 'react';
 import { FontAwesome5 as Icon} from '@expo/vector-icons';
 import { View, StyleSheet, Image, Text} from 'react-native';
 import { RectButton } from 'react-native-gesture-handler';
+import Header from '../../components/Header';
+import { useNavigation } from '@react-navigation/native';
 
 const Home = () => {
+  const navigation = useNavigation();
 
     const handleOnPress = () => {
-        
+      navigation.navigate('');
     }
 
-    <>
     return (
+      <>
+      <Header />
         <View style={styles.container}>
             <Image 
                 source={require('../../assets/gamer.png')} 
@@ -36,8 +40,9 @@ const Home = () => {
                 </View>
             </RectButton>
         </View>
+        </>
     )
-    </>
+    
     
 };
 
