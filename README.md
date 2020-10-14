@@ -7,7 +7,7 @@ Objetivo do projeto era a criação de uma aplicação mobile e web usando:
 <li>
 <h3><b>Link para a aplicação web</b></h3>
 <ul> 
-<li><a href="https://sd1-fvianas.netlify.app/" target="_blank">Big Game Survey</a></li>
+<li><a href="https://sd1-fvianas.netlify.app/">Big Game Survey</a></li>
 </ul>
 </li>
 </ol>
