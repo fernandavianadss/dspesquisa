@@ -4,8 +4,7 @@ Objetivo do projeto era a criação de uma aplicação mobile e web usando:
 `Java`, `Spring Boot`, `React`, `React Native`, `PostgreSQL`, `Heroku`, `Netlifly`
 
 
-## Módulos do Bootcamp
-
+## Link para a aplicação web
 <ol>
 <li>
 <h3><b>Fundamentos com Javascript</b></h3>
