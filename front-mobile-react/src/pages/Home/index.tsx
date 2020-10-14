@@ -9,7 +9,7 @@ const Home = () => {
   const navigation = useNavigation();
 
     const handleOnPress = () => {
-      navigation.navigate('');
+      navigation.navigate('CreateRecord');
     }
 
     return (
@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
     },
     subTitle: {
       color: '#ED7947',
-      fontSize: 21,
+      fontSize: 20,
       marginTop: 15,
       fontFamily: "Play_400Regular",
     },
